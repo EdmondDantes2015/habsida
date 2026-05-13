@@ -1,0 +1,35 @@
+.buttonClass {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttonClass:hover {
+  background-color: rgb(109, 139, 0);
+}
+
+.swiper {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.swiper-wrapper {
+  height: 200px;
+  border-radius: 10px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  color: rgb(255, 255, 255);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: white;
+}
